@@ -1,0 +1,29 @@
+{
+  "name": "@theecosystem/eco-ystem",
+  "version": "1.0.0",
+  "description": "Core ecosystem orchestration and simulation components",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "npm run build:js",
+    "build:js": "echo 'Building eco-ystem package...'",
+    "test": "echo 'Testing eco-ystem package...'",
+    "lint": "eslint src --ext .js,.jsx,.ts,.tsx",
+    "dev": "echo 'Development mode for eco-ystem...'"
+  },
+  "keywords": [
+    "ecosystem",
+    "orchestration",
+    "simulation",
+    "cloning"
+  ],
+  "author": "keethers",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  }
+}

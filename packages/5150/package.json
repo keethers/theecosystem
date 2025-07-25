@@ -1,0 +1,29 @@
+{
+  "name": "@theecosystem/5150",
+  "version": "1.0.0",
+  "description": "5150 gambling and gaming components",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "npm run build:js",
+    "build:js": "echo 'Building 5150 package...'",
+    "test": "echo 'Testing 5150 package...'",
+    "lint": "eslint src --ext .js,.jsx,.ts,.tsx",
+    "dev": "echo 'Development mode for 5150...'"
+  },
+  "keywords": [
+    "gaming",
+    "gambling",
+    "slots",
+    "lottery"
+  ],
+  "author": "keethers",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  }
+}

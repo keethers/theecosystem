@@ -1,0 +1,29 @@
+{
+  "name": "@theecosystem/fucc5150",
+  "version": "1.0.0",
+  "description": "Fucc 5150 payment and verification components",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "npm run build:js",
+    "build:js": "echo 'Building fucc5150 package...'",
+    "test": "echo 'Testing fucc5150 package...'",
+    "lint": "eslint src --ext .js,.jsx,.ts,.tsx",
+    "dev": "echo 'Development mode for fucc5150...'"
+  },
+  "keywords": [
+    "payment",
+    "verification",
+    "venmo",
+    "fucc5150"
+  ],
+  "author": "keethers",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  }
+}

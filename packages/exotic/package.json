@@ -1,0 +1,30 @@
+{
+  "name": "@theecosystem/exotic",
+  "version": "1.0.0",
+  "description": "Exotic modes and special functionality",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "npm run build:js",
+    "build:js": "echo 'Building exotic package...'",
+    "test": "echo 'Testing exotic package...'",
+    "lint": "eslint src --ext .js,.jsx,.ts,.tsx",
+    "dev": "echo 'Development mode for exotic...'"
+  },
+  "keywords": [
+    "exotic",
+    "modes",
+    "ghost",
+    "god",
+    "spy"
+  ],
+  "author": "keethers",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  }
+}
