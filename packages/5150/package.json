@@ -12,7 +12,12 @@
     "lint": "eslint src --ext .js,.jsx,.ts,.tsx",
     "dev": "echo 'Development mode for 5150...'"
   },
-  "keywords": ["gaming", "gambling", "slots", "lottery"],
+  "keywords": [
+    "gaming",
+    "gambling",
+    "slots",
+    "lottery"
+  ],
   "author": "keethers",
   "license": "MIT",
   "dependencies": {
