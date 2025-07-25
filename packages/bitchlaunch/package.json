@@ -1,0 +1,29 @@
+{
+  "name": "@theecosystem/bitchlaunch",
+  "version": "1.0.0",
+  "description": "Trading and financial engine components",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "npm run build:js",
+    "build:js": "echo 'Building bitchlaunch package...'",
+    "test": "echo 'Testing bitchlaunch package...'",
+    "lint": "eslint src --ext .js,.jsx,.ts,.tsx",
+    "dev": "echo 'Development mode for bitchlaunch...'"
+  },
+  "keywords": [
+    "trading",
+    "finance",
+    "shark",
+    "engine"
+  ],
+  "author": "keethers",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  }
+}

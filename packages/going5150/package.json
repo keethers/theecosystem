@@ -1,0 +1,29 @@
+{
+  "name": "@theecosystem/going5150",
+  "version": "1.0.0",
+  "description": "Going 5150 promotional and tracking components",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "npm run build:js",
+    "build:js": "echo 'Building going5150 package...'",
+    "test": "echo 'Testing going5150 package...'",
+    "lint": "eslint src --ext .js,.jsx,.ts,.tsx",
+    "dev": "echo 'Development mode for going5150...'"
+  },
+  "keywords": [
+    "promotional",
+    "tracking",
+    "tesla",
+    "going5150"
+  ],
+  "author": "keethers",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  }
+}
